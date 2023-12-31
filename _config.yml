@@ -21,8 +21,8 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "cain"
 description              : " "
-url                      : "https://gunb0s.github.io/blog"
-baseurl                  : "/blog"
+url                      : "https://gunb0s.github.io"
+baseurl                  : ""
 repository               : "gunb0s/gunb0s.github.io"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -80,13 +80,13 @@ yandex_site_verification :
 baidu_site_verification  :
 
 # Social Sharing
-#twitter:
-#  username               :
-#facebook:
-#  username               :
-#  app_id                 :
-#  publisher              :
-#og_image                 : # Open Graph/Twitter default site image
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
