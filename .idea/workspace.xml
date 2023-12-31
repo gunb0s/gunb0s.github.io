@@ -42,10 +42,16 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_pages" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -62,7 +68,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678369209602</updated>
       <workItem from="1678369211093" duration="1022000" />
-      <workItem from="1703852610364" duration="13298000" />
+      <workItem from="1703852610364" duration="15151000" />
     </task>
     <servers />
   </component>
