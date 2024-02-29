@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d624e390-63c6-43c0-9b09-6374d4038f8f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2024-02-29-Transactional-Outbox-Pattern-적용해보기.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/T-O-B.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2013-01-02-NestJS 싱글톤 컨테이너에서 발생할 수 있는 동시성 문제.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2024-01-02-NestJS 싱글톤 컨테이너에서 발생할 수 있는 동시성 문제.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +58,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/_pages" />
     </key>
   </component>
@@ -77,7 +81,9 @@
       <updated>1678369209602</updated>
       <workItem from="1678369211093" duration="1022000" />
       <workItem from="1703852610364" duration="17945000" />
-      <workItem from="1704197300998" duration="4252000" />
+      <workItem from="1704197300998" duration="4934000" />
+      <workItem from="1709123041975" duration="653000" />
+      <workItem from="1709207583147" duration="1168000" />
     </task>
     <servers />
   </component>
