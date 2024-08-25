@@ -1,5 +1,5 @@
-import Image from "next/image";
 import Container from "@/components/container";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
@@ -7,8 +7,9 @@ export default function HomePage() {
       <Container>
         <div className="space-y-6">
           <h1 className="text-2xl font-bold">
-            Hey, I'm a Junior Software Engineer at Company. I enjoy working with
-            Server, Infra Engineering
+            {
+              "Hey, I'm a Junior Software Engineer at Company. I enjoy working with Server, Infra Engineering"
+            }
           </h1>
           <p>
             This portfolio is built with Next.js and a library called next-mdx.

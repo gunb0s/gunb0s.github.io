@@ -1,4 +1,4 @@
-import { getPostBySlug } from "@/lib/api";
+import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
 import { PostBody } from "@/components/post-body";
@@ -9,6 +9,10 @@ type Params = {
     slug: string;
   };
 };
+
+export async function generateStaticParams() {
+  return getAllPosts();
+}
 
 export default async function Post({ params }: Params) {
   const post = getPostBySlug(params.slug);
