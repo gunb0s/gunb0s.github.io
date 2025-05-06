@@ -1,26 +1,20 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/header";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "My awesome blog",
-  description: "Clone and deploy your own Next.js portfolio in minutes.",
+  title: "김보성 - Kotlin 서버 개발자",
+  description:
+    "AI 기반 Agent 시스템과 인프라에 관심 있는 Kotlin 서버 개발자 김보성의 포트폴리오입니다.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <Header />
-        <>{children}</>
-      </body>
+    <html lang="ko">
+      <body className="min-h-screen bg-white">{children}</body>
     </html>
   );
 }
