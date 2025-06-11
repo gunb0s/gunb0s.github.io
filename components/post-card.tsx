@@ -1,10 +1,5 @@
-interface Post {
-  id: string;
-  title: string;
-  date: string;
-  tags: string[];
-  excerpt: string;
-}
+import { Post } from "@/interface/post";
+import Link from "next/link";
 
 interface PostCardProps {
   post: Post;
@@ -15,7 +10,9 @@ export default function PostCard({ post }: PostCardProps) {
     <article className="group cursor-pointer">
       <div className="mb-2">
         <h2 className="text-lg font-medium text-foreground group-hover:text-primary transition-colors leading-tight">
-          {post.title}
+          <Link as={`/posts/${post.slug}`} href="/posts/[slug]">
+            {post.title}
+          </Link>
         </h2>
         <time className="text-sm text-muted-foreground">{post.date}</time>
       </div>

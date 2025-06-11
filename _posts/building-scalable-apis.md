@@ -19,8 +19,6 @@ status: "published"
 summary: "A deep dive into the architectural decisions and optimization techniques that make APIs truly scalable."
 ---
 
-# Building Scalable APIs: Lessons from Production
-
 After spending months working on various API projects, I've learned that building a functional API is just the beginning. The real challenge lies in making it scalable, maintainable, and robust enough to handle production traffic.
 
 ## The Foundation: Design Principles

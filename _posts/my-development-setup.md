@@ -19,8 +19,6 @@ status: "published"
 summary: "An honest review of the development tools and setup that have genuinely improved my daily coding experience."
 ---
 
-# My 2024 Development Setup: Tools That Actually Matter
-
 After years of constantly tweaking my development environment, I've finally settled on a setup that just works. Here's what I use daily and why these tools have stuck around.
 
 ## The Core Stack

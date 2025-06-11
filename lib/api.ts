@@ -2,6 +2,7 @@ import { join } from "path";
 import fs from "fs";
 import matter from "gray-matter";
 import { Post } from "@/interface/post";
+import { formatDateToReadableString } from "./utils";
 
 const postsDirectory = join(process.cwd(), "_posts");
 
@@ -23,6 +24,7 @@ export function getPostBySlug(slug: string) {
   const fullPath = join(postsDirectory, `${realSlug}.md`);
   const fileContents = fs.readFileSync(fullPath, "utf8");
   const { data, content } = matter(fileContents);
+  const date = formatDateToReadableString(data.date);
 
-  return { ...data, slug: realSlug, content } as Post;
+  return { ...data, date, slug: realSlug, content } as Post;
 }
