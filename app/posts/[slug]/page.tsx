@@ -1,8 +1,6 @@
 import { getAllPosts, getPostBySlug } from "@/lib/api";
 import { notFound } from "next/navigation";
 import markdownToHtml from "@/lib/markdownToHtml";
-import { PostBody } from "@/components/post-body";
-import { PostHeader } from "@/components/post-header";
 
 type Params = {
   params: {
@@ -25,15 +23,7 @@ export default async function Post({ params }: Params) {
 
   return (
     <main>
-      <article className="mb-32">
-        <PostHeader
-          title={post.title}
-          coverImage={post.coverImage}
-          date={post.date}
-          author={post.author}
-        />
-        <PostBody content={content} />
-      </article>
+      <article className="mb-32"></article>
     </main>
   );
 }
