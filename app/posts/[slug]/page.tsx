@@ -52,7 +52,7 @@ export default async function Post({ params }: Params) {
           </div>
         </header>
 
-        <div className="prose prose-invert prose-lg max-w-none">
+        <div className="prose prose-invert prose-sm md:prose-base lg:prose-lg max-w-none">
           <div
             className="leading-relaxed"
             dangerouslySetInnerHTML={{ __html: content }}
