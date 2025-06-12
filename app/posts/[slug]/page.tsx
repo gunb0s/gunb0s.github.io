@@ -54,8 +54,7 @@ export default async function Post({ params }: Params) {
 
         <div className="prose prose-invert prose-sm max-w-none">
           <div
-            className="text-foreground leading-relaxed"
-            style={{ whiteSpace: "pre-line" }}
+            className="leading-relaxed"
             dangerouslySetInnerHTML={{ __html: content }}
           />
         </div>
