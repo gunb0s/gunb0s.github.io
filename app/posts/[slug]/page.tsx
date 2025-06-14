@@ -38,7 +38,7 @@ export default async function Post({ params }: Params) {
             {post.title}
           </h1>
           <time className="text-sm text-muted-foreground mb-4 block">
-            {post.date}
+            {post.displayDate}
           </time>
           <div className="flex flex-wrap gap-2">
             {post.tags.map((tag) => (

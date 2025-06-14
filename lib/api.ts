@@ -26,5 +26,5 @@ export function getPostBySlug(slug: string) {
   const { data, content } = matter(fileContents);
   const date = formatDateToReadableString(data.date);
 
-  return { ...data, date, slug: realSlug, content } as Post;
+  return { ...data, displayDate: date, slug: realSlug, content } as Post;
 }

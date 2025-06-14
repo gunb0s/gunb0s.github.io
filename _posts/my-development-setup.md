@@ -2,7 +2,7 @@
 title: "My 2024 Development Setup: Tools That Actually Matter"
 excerpt: "A practical look at the tools, configurations, and workflows that have made me more productive as a developer."
 coverImage: "/assets/blog/setup/cover.jpg"
-date: "2024-02-28T12:00:00.000Z"
+date: "2024-03-28T12:00:00.000Z"
 author:
   name: "Cain"
   picture: "/assets/blog/authors/cain.jpeg"

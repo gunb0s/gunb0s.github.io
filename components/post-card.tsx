@@ -14,7 +14,9 @@ export default function PostCard({ post }: PostCardProps) {
             {post.title}
           </h2>
         </div>
-        <time className="text-sm text-muted-foreground">{post.date}</time>
+        <time className="text-sm text-muted-foreground">
+          {post.displayDate}
+        </time>
 
         <p className="text-muted-foreground text-sm leading-relaxed mb-3">
           {post.excerpt}
